@@ -14,7 +14,7 @@ respar = float(input('Digite um número: '))
 
 while True:
 
-    op = input('Digite: [+] somar  [-] subtrair  [*] multiplicar  [/] dividir  [=] finalizar:]')
+    op = input('[+] somar \n [-] subtrair \n [*] multiplicar \n [/] dividir \n [=] finalizar \n Digite: ')
 
     if op == "=":
         print(f'Resultado final: {respar}')
